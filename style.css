@@ -12,7 +12,10 @@ h1 {
   font-weight: bold;
   letter-spacing: -1px;
   line-height: 1;
-  text-align: left; }
+  text-align: left;
+  border-bottom: 7px solid #F5CB5C;
+  padding-bottom: 15px
+}
 
 h3 {
   border-bottom: 1px solid #E8EDDF;
@@ -41,16 +44,24 @@ body {
   margin: 10% 20%;
 }
 
+p {
+  font-style: italic;
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin-top: -16px
+}
+
 
 .exp-header {
   color: #242423;
   text-align: center;
   text-transform: uppercase; 
-  border-top: 3px solid #F5CB5C;
-  border-bottom: 3px solid #F5CB5C;
-  border-right: 3px solid #F5CB5C;
-  border-left: 3px solid #F5CB5C;
-  background-color: rgba(207, 219, 213.1)
+  border-top: 3px solid #242423;
+  border-bottom: 3px solid #242423;
+  border-right: 3px solid #242423;
+  border-left: 3px solid #242423;
+  background-color: rgba(207, 219, 213.1);
+  margin-top: 50px;
 }
 
 li {
